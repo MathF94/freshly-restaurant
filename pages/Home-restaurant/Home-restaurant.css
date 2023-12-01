@@ -568,13 +568,14 @@
 /* *****************************************************************
  VERSION DESKTOP
 ***************************************************************** */
-@media screen and (min-width: 980px) and (max-width: 1401px) {
+@media screen and (min-width: 980px) and (max-width: 1920px) {
     /* *****************************************************************
     BODY
     ***************************************************************** */
     body {
         font-family: "athiti";
         max-width: 1400px;
+        margin: 0px auto;
     }
     /* *****************************************************************
     HEADER
@@ -609,7 +610,7 @@
         margin-top: 70px;
         width: 400px;
         position: absolute;
-        right: 20px;
+        right: 250px;
     }
     .menu {
         display: flex;
