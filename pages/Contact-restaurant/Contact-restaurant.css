@@ -22,14 +22,14 @@
 /* *****************************************************************
  VERSION MOBILE
 ***************************************************************** */
-@media screen and (min-width: 320px) and (max-width: 780px) {	
-        
+@media screen and (min-width: 320px) and (max-width: 780px) {
+
     /* *****************************************************************
     BODY
     ***************************************************************** */
     body {
         font-family: "athiti";
-        max-width: 780px;        
+        max-width: 780px;
     }
     /* *****************************************************************
     HEADER
@@ -45,12 +45,12 @@
     div > .logo {
         width: 100px;
         height: 100px;
-        margin-bottom: -20px;    
+        margin-bottom: -20px;
     }
     .fa-star {
         position: relative;
         bottom: 5px;
-        font-family: "Font Awesome 5 Free";         
+        font-family: "Font Awesome 5 Free";
         font-style: normal;
         font-size : 10px;
         color: #950000;
@@ -63,7 +63,7 @@
         flex-direction: column;
         align-items: center;
         list-style-type: none;
-        padding: 0 0;        
+        padding: 0 0;
     }
     .menu li:nth-child(4) {
         background-color: #4c4343;
@@ -73,12 +73,12 @@
         color:#ebe3db;
     }
     .menu li {
-        background-color: #ebe3db;    
+        background-color: #ebe3db;
         border: 1px solid #4c4343;
         padding: 5px 0;
         width: 100%;
-        text-align: center;    
-    } 
+        text-align: center;
+    }
     .menu li a {
         text-decoration: none;
         font-family: "athiti";
@@ -103,7 +103,7 @@
     }
     h2 {
         font-family: "Merienda";
-        text-align: center;    
+        text-align: center;
         font-size: 25px;
     }
     .red {
@@ -127,7 +127,7 @@
     }
     .reservations {
         margin-right: 0;
-        padding-right:0;        
+        padding-right:0;
     }
     .details {
         margin-left: 0;
@@ -141,7 +141,7 @@
     }
     legend {
         font-family: "Merienda";
-        text-align: center;    
+        text-align: center;
         font-size: 20px;
         font-weight: bold;
         margin-bottom: 10px;
@@ -216,18 +216,18 @@
         border-bottom: 1px dashed #ebe3db;
     }
     .hours-contact ul {
-        list-style-type: none;   
-        padding-left: 0;     
+        list-style-type: none;
+        padding-left: 0;
         color: #ebe3db;
     }
     .hours-contacts-networks {
         margin-top: 30px;
     }
     .social {
-        display: flex;        
+        display: flex;
         flex-wrap: wrap;
     }
-    .social > li:first-child {        
+    .social > li:first-child {
         justify-content: center;
         width: 100%;
         margin-top: 10px;
@@ -238,7 +238,7 @@
     .social > li:nth-child(3){
         margin-left: 32px;
         margin-right: 32px;
-    }   
+    }
     .social > li:nth-child(4){
         margin-right: auto;
     }
@@ -251,7 +251,7 @@
     }
     .networks a {
         text-align: center;
-        margin: 0 10px;    
+        margin: 0 10px;
     }
     .fa-facebook-f {
         color: #ebe3db;
@@ -284,8 +284,8 @@
 /* *****************************************************************
  VERSION TABLETTE
 ***************************************************************** */
-@media screen and (min-width: 780px) and (max-width: 980px) {	
-        
+@media screen and (min-width: 780px) and (max-width: 980px) {
+
     /* *****************************************************************
     BODY
     ***************************************************************** */
@@ -307,12 +307,12 @@
     div > .logo {
         width: 200px;
         height: 200px;
-        margin-bottom: -20px;    
+        margin-bottom: -20px;
     }
     .fa-star {
         position: relative;
         bottom: 5px;
-        font-family: "Font Awesome 5 Free";         
+        font-family: "Font Awesome 5 Free";
         font-style: normal;
         font-size : 10px;
         color: #950000;
@@ -336,10 +336,10 @@
         color:#ebe3db;
     }
     .menu li {
-        background-color: #ebe3db;    
+        background-color: #ebe3db;
         padding: 5px 0;
         width: 10%;
-        text-align: center;        
+        text-align: center;
     }
     .menu li a {
         text-decoration: none;
@@ -354,7 +354,7 @@
     nav .menu li:hover {
         background-color: #950000;
         transition: 0.2s;
-    }    
+    }
     /* *****************************************************************
     MAIN
     ***************************************************************** */
@@ -366,7 +366,7 @@
     }
     h2 {
         font-family: "Merienda";
-        text-align: center;    
+        text-align: center;
         font-size: 25px;
     }
     .red {
@@ -403,7 +403,7 @@
     }
     legend {
         font-family: "Merienda";
-        text-align: center;    
+        text-align: center;
         font-size: 20px;
         font-weight: bold;
         margin-bottom: 10px;
@@ -468,7 +468,7 @@
         justify-content: center;
     }
     .hours-contact {
-        display: flex;        
+        display: flex;
         width: 100%;
         gap: 5em;
     }
@@ -482,7 +482,7 @@
         margin-bottom: 15px;
         border-bottom: 1px dashed #ebe3db;
     }
-    .hours-contact ul {    
+    .hours-contact ul {
         list-style-type: none;
         color: #ebe3db;
         padding: 0 0 50px 0;
@@ -490,23 +490,23 @@
         width: 100%;
     }
     .social {
-        display: flex;        
+        display: flex;
         flex-wrap: wrap;
         margin-bottom: 80px;
     }
-    .social > li:first-child {        
+    .social > li:first-child {
         width: 100%;
         margin-top: 10px;
         height: 25px;
         padding-top: 20px;
     }
     .social > li:nth-child(2){
-        margin-left: auto;        
+        margin-left: auto;
     }
     .social > li:nth-child(3){
         margin-left: 32px;
         margin-right: 32px;
-    }   
+    }
     .social > li:nth-child(4){
         margin-right: auto;
     }
@@ -520,7 +520,7 @@
     }
     .networks a {
         text-align: center;
-        margin: 0 10px;    
+        margin: 0 10px;
     }
     .fa-facebook-f {
         color: #ebe3db;
@@ -553,14 +553,15 @@
 /* *****************************************************************
  VERSION DESKTOP
 ***************************************************************** */
-@media screen and (min-width: 980px) and (max-width: 1401px) {
-    
+@media screen and (min-width: 980px) and (max-width: 1920px) {
+
     /* *****************************************************************
     BODY
     ***************************************************************** */
     body {
         font-family: "athiti";
         max-width: 1400px;
+        margin: 10px auto;
     }
     /* *****************************************************************
     HEADER
@@ -568,7 +569,7 @@
     header {
         display: flex;
         height: 250px;
-    }    
+    }
     h1 {
         margin-top: 80px;
         text-transform: uppercase;
@@ -586,7 +587,7 @@
     .fa-star {
         position: relative;
         bottom: 5px;
-        font-family: "Font Awesome 5 Free";         
+        font-family: "Font Awesome 5 Free";
         font-style: normal;
         font-size : 10px;
         color: #950000;
@@ -639,7 +640,7 @@
     }
     h2 {
         font-family: "Merienda";
-        text-align: center;    
+        text-align: center;
         font-size: 25px;
     }
     .red {
@@ -679,7 +680,7 @@
     }
     legend {
         font-family: "Merienda";
-        text-align: center;    
+        text-align: center;
         font-size: 20px;
         font-weight: bold;
         margin-bottom: 10px;
@@ -766,23 +767,23 @@
         width: 100%;
     }
     .social {
-        display: flex;        
+        display: flex;
         flex-wrap: wrap;
         margin-bottom: 80px;
     }
-    .social > li:first-child {        
+    .social > li:first-child {
         width: 100%;
         margin-top: 10px;
         height: 25px;
         padding-top: 20px;
     }
     .social > li:nth-child(2){
-        margin-left: auto;        
+        margin-left: auto;
     }
     .social > li:nth-child(3){
         margin-left: 32px;
         margin-right: 32px;
-    }   
+    }
     .social > li:nth-child(4){
         margin-right: auto;
     }
@@ -793,7 +794,7 @@
     }
     .networks a {
         text-align: center;
-        margin: 0 10px;    
+        margin: 0 10px;
     }
     .fa-facebook-f {
         color: #ebe3db;
