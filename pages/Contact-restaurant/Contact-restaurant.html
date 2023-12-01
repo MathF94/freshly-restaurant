@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../ressources/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="Contact-restaurant.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="../../ressources/images/logo.png" alt="freshly restaurant">
+        </div>
+        <h1><i class="fa-star"></i> Freshly restaurant <i class="fa fa-star"></i></h1>
+    <nav>
+        <ul class="menu">
+            <li><a href="../Home-restaurant/Home-restaurant.html">Home</a></li>
+            <li><a href="../About-restaurant/About-restaurant.html">About</a></li>
+            <li><a href="../Menus-restaurant/Menus-restaurant.html">Menus</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section>
+            <h2><i class="fa-star"></i> Contact us <i class="fa-star"></i></h2>
+            <p>If you want to make a reservation, please complete this form.</p>
+            <p><em>Fields with <span class="red">*</span> are required.</em></p>
+
+            <form class="form" action="form.html" method="post">
+                <fieldset class="reservations">
+                    <legend>Reservations</legend>
+                    <div>
+                        <label for="date"><span class="red">* </span>Date</label>
+                        <div class="value">
+                            <input type="date" name="date" id="date">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="time"><span class="red">* </span>Time</label>
+                        <div class="value">
+                            <input type="time" name="time" id="time">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="number"><span class="red">* </span>Number of guests</label>
+                        <div class="value">
+                            <input type="number" name="number" id="number">
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="details">
+                    <legend>Details</legend>
+                    <div>
+                        <label for="firstname"><span class="red">* </span>Name</label>
+                        <div class="value">
+                            <input type="text" name="firstname" id="firstname">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="lastname">Email</label>
+                        <div class="value">
+                            <input type="text" name="lastname" id="lastname">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="email"><span class="red">* </span>Telephone</label>
+                        <div class="value">
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="further">
+                    <legend>Further request</legend>                    
+                    <textarea name="query" id="query"></textarea>
+                </fieldset>
+                <div class="toolbar">
+                    <button type="submit" class="button">Reserve</button>
+                </div>
+            </form>
+
+            <h2><i class="fa-star"></i> Our location <i class="fa-star"></i></h2>
+            <div class="container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.2716245825973!2d-74.0004721!3d40.7340483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25996a02e5209%3A0xae7c604488b12607!2s13%20Christopher%20St%2C%20New%20York%2C%20NY%2010014%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1688848950124!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="hours-contact">
+            <ul class="hours-contacts-networks">
+                <li class="h4">Opening hours</li>
+                <li>Monday: Closed</li>
+                <li>Tue-Wed : 9am - 10pm</li>
+                <li>Thu-Fri : 9am - 10pm</li>
+                <li>Sat-Sun : 5pm - 10pm</li>
+            </ul>
+            <ul class="hours-contacts-networks">
+                <li class="h4">Contact</li>
+                <li>13 Christopher Street</li>
+                <li>New York,</li>
+                <li>NY 10014-3543</li>
+                <li>+01 2000 800 9999</li>
+            </ul>   
+            <ul class="hours-contacts-networks social">
+                <li class="h4">Social networks</li>
+                <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.pinterest.com"><i class="fab fa-pinterest-p"></i></a></li>
+            </ul>            
+        </div>
+        <div>
+            <div class="div_footer">
+                <img src="../../ressources/images/logo-3wa.png" alt="Propriété de la 3W Academy">
+                <p>
+                    Cet exercice de <span class="underline">3W Academy</span> est mis à disposition <span>pour l'usage personnel des étudiants. Pas de Rediffusion - Attribution - Pas d'Utilisation Commerciale - Pas de Modification - International</span>.
+                    Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a href="mailto:contact@3wa.fr">contact@3wa.fr</a>. Les maquettes ont été réalisées par <span>Catherine Denos</span>.
+                </p>  
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
